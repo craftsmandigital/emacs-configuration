@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: sh-ow <sh-ow@users.noreply.github.com>
+# name: commentEOL 
+# key: coe
+# `(yas-trimmed-comment-start)``user-mail-address` `(format-time-string "%Y%m%d")`  ${1:comment}`(unless (eq (length comment-end) 0) (concat " " (yas-trimmed-comment-end)))`$0
+# --
+`(yas-trimmed-comment-start)``(format-time-string "%Y%m%d")` JAV ${1:comment}`(unless (eq (length comment-end) 0) (concat " " (yas-trimmed-comment-end)))`$0
